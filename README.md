@@ -2,6 +2,8 @@
 
 ##### A Simple React Calculator With Hooks and Grid
 
+![alt text](https://github.com/naveenravichandran/Calculator/blob/main/public/calculator.png)
+
 ## Built With
 
 React 16.13.1
