@@ -1,0 +1,6 @@
+.calculator {
+  height: 400px;
+  width: 50%;
+  display: inline-table;
+  border: 5px solid #99003d;
+}

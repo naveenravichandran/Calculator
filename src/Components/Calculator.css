@@ -1,0 +1,54 @@
+.calculatorDisplay {
+  height: 80%;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: stretch;
+  height: 20%;
+}
+
+.input {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  align-content: stretch;
+  height: 100%;
+  width: 25%;
+}
+
+.actionButton {
+  color: #99003d;
+}
+
+.Result {
+  width: 50%;
+  background-color: #99003d;
+}
+
+.display {
+  background-color: #e6004c;
+  height: 20%;
+}
+
+.input:hover {
+  background-color: #99003d;
+  color: #ff66b3;
+}
+
+.displayChild {
+  height: 50%;
+  color: white;
+  align-items: center;
+  text-align: right;
+}
+
+.grabbing {
+  cursor: -webkit-grabbing;
+  cursor: grabbing;
+}
