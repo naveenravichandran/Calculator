@@ -60,7 +60,7 @@ export default function Calculator() {
         break;
       case "BACK":
         if (input) {
-          setInput(`${input.substring(1)}`);
+          setInput(`${input.substr(0, input.length - 1)}`);
           break;
         }
       case "CLEAR":
